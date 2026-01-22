@@ -22,7 +22,7 @@
     kintone.events.on(
     [
         `app.record.create.show`,
-        `app.record.create.hange.${DATE_FIELD}`,
+        `app.record.create.change.${DATE_FIELD}`,
         `app.record.edit.change.${DATE_FIELD}`
     ],
     function (event) {
@@ -32,3 +32,4 @@
     );
 
     })();
+
